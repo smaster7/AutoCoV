@@ -13,6 +13,13 @@ python run.py train.txt val.txt test.txt
 Input data is `sequence x feature` matrix and the example is below. 
 <p align="center"><img src="input_example.png" /></p>
 In feature dimension, it consits of following information.
-- abc
-- ded
-- edf
+```
+- [Column 1] Sequence ID (NCBI): It will be used as index of data.
+- [Column 2 ~ N] K-mer feature: the frequencies of each k-mer.
+- [Column N+1 ~ N+5] Virus Information.
+  - Clade: subclass information of the virus.
+  - Date: month of the virus collected.
+  - Date_Class: {0, 1, 2} where 0 for Dec 2019, Jan, Fed 2020 / 1 for Mar 2020/ 2 for from Apr 2020.
+  - GISAID: Sequence ID from GISAID. If not available, fill 'None'.
+  - Region: location of the virus collected.
+```
