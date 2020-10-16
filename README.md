@@ -13,6 +13,7 @@ python run.py train.txt val.txt test.txt
 Input data is `sequence x feature` matrix and the example is below. 
 <p align="center"><img src="input_example.png" /></p>
 In feature dimension, it consits of following information.
+
 ```
 - [Column 1] Sequence ID (NCBI): It will be used as index of data.
 - [Column 2 ~ N] K-mer feature: the frequencies of each k-mer.
