@@ -10,5 +10,9 @@ python run.py train.txt val.txt test.txt
 ```
 
 ## Input Example
-Input data is `sequence x feature` matrix and the example is below.
+Input data is `sequence x feature` matrix and the example is below. 
 <p align="center"><img src="input_example.png" /></p>
+In feature dimension, it consits of following information.
+- abc
+- ded
+- edf
