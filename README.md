@@ -3,7 +3,7 @@
 <p align="center"><img src="overview.png" /></p>
 
 <h2 align="left">Usage</h2>
-```bash
-# Run AutoCoV with trainining, validation, test data
-python run.py train.txt val.txt test.txt
-```
+
+    # Run AutoCoV with trainining, validation, test data
+    python run.py train.txt val.txt test.txt
+
