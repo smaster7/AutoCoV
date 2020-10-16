@@ -4,6 +4,7 @@
 
 <h2 align="left">Usage</h2>
 
-    # Run AutoCoV with trainining, validation, test data
-    python run.py train.txt val.txt test.txt
-
+```bash
+# Extract epiloci from BAM file.
+prism extract -i sample.bam -o sample.met
+```
