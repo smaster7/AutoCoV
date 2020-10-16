@@ -4,6 +4,6 @@
 
 <h2 align="left">Usage</h2>
 
-    ```# Run AutoCoV with trainining, validation, test data```
+    # Run AutoCoV with trainining, validation, test data
     python run.py train.txt val.txt test.txt
 
