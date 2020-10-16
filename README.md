@@ -5,6 +5,10 @@
 <h2 align="left">Usage</h2>
 
 ```bash
-# Extract epiloci from BAM file.
-prism extract -i sample.bam -o sample.met
+# Run AutoCoV with training, validation, test data.
+python run.py train.txt val.txt test.txt
 ```
+
+## Input Example
+Input data is `sequence x feature` matrix and the example is below.
+<p align="center"><img src="input_example.png" /></p>
